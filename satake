@@ -107,10 +107,11 @@ EOF
 
     echo "Internal IP = ${IP4}. External subnet for IPv6 = ${IP6}"
 
-    echo "Ending Port"
-    read end_port
-    FIRST_PORT=10000
-    LAST_PORT=$end_port
+   echo "VINASOFT-NHAP SO PROXY V6 MUON TAO"
+read COUNT
+
+FIRST_PORT=10000
+LAST_PORT=$(($FIRST_PORT + $COUNT))
 
     gen_data >$WORKDIR/data.txt
     gen_iptables >$WORKDIR/boot_iptables.sh
