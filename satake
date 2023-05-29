@@ -1,5 +1,3 @@
-#!/bin/bash
-
 #centos script
 if [ -f /etc/centos-release ]; then
     systemctl stop firewalld 2>/dev/null
@@ -140,4 +138,4 @@ if [ -f /etc/lsb-release ]; then
     apt update
     apt-get install make -y
     apt-get install gcc -y
-fi
+fi 
