@@ -102,7 +102,7 @@ EOF
 
     IP4=$(curl -4 -s icanhazip.com)
 
-    echo "Enter IPv6 network address (e.g., 2600:3c00:f03c:4dfd)"
+    echo "SUBNET CHO IP"
     read IP6
 
     echo "Internal IP = ${IP4}. External subnet for IPv6 = ${IP6}"
