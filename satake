@@ -146,7 +146,6 @@ display_transfer_sh_url() {
     echo "Download zip archive from: ${URL}"
     echo "Password: ${PASS}"
     display_transfer_sh_url
-fi
 
 
 
